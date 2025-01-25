@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.con
+{
+    background-image: url("watch.jpg");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Featured-Products{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.product {
+    background: powderblue;
+    border: 1px solid #b10707;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(17, 1, 238, 0.881);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 20%;
+    height: auto;
+}
+
+button{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.kk {
+    background-color: rgb(6, 142, 142);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.jj {
+    background-color: rgb(6, 142, 142);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
